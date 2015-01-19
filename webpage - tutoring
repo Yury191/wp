@@ -1,0 +1,341 @@
+<!-- Tutoring
+============================================= -->
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+    ============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="static/style.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="static/css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- External JavaScripts
+    ============================================= -->
+	<script type="text/javascript" src="static/js/jquery.js"></script>
+	<script type="text/javascript" src="static/js/plugins.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+	<title>Central Park Educational Solutions - Private Instruction</title>
+
+</head>
+
+<body class="stretched">
+
+   <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="full-header">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <a href="home.html" class="standard-logo" data-dark-logo="static/images/CPEClogo1x.png"><img src="static/images/CPEClogo1x.png" alt="Central Park Educational Consultants Logo"></a>
+                        <a href="home.html" class="retina-logo" data-dark-logo="static/images/CPEClogo2x.png"><img src="static/images/CPEClogo2x.png" alt="Central Park Educational Consultants Logo"></a>
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation file:///C:/Users/Yura/Downloads/Download_on_the_App_Store_Badge_US-UK_135x40.svg
+                    ============================================= -->
+                    <nav id="primary-menu">
+                        <ul>                         
+                            <li><a href=""><div><i class="icon-call"></i>(212) 804-8902</div></a></li>
+                            <li><a href=""><div><i class="icon-align-justify2"></i>Learn More</div></a>
+                                <ul>
+                                    <li><a href="enroll.html"><div><i class="icon-pen"></i>How to Enroll</div></a>
+                                    </li>
+                                    <li><a href="about.html"><div><i class="icon-info"></i>About</div></a>
+                                    </li>
+                                    <li><a href="tutoring.html"><div><i class="icon-user4"></i>Private Instruction</div></a>
+                                    </li>                                   
+                                    <li><a href="bootcamp.html"><div><i class="icon-desktop"></i>Bootcamp</div></a>
+                                    </li>
+                                    <li><a href="faq.html"><div><i class="icon-question"></i>FAQ</div></a>
+                                    </li>
+<!--                                     <li><a href="blog.html"><div><i class="icon-blogger"></i>Blog</div></a>
+                                    </li> -->
+                                    <li><a href="contact.html"><div><i class="icon-mail"></i>Contact Us</div></a>
+                                    </li>
+                                </ul> 
+                            <li><a href="#myModal" data-toggle="modal" class="current mega-menu" ><div><i class="icon-user4"></i>Enroll Now</div></a></li>
+                            </li>    
+                        </ul>
+
+<!--                         <button class="button button-3d button-rounded button-green" data-toggle="modal" data-target="#myModal">Enroll Now</button> -->
+<!-- outof the game     <ul>
+                            <a class="button button-border button-rounded button-large button-dark noleftmargin" style="margin: 30px 0 0 10px;"><i class="icon-user4"></i>Enroll for Free Lesson</a>              
+                        </ul> -->
+
+                        <!-- Button trigger modal -->
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-body">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h3 class="modal-title" id="myModalLabel">Considering enrolling? Try a free lesson.</h3>
+                                        </div>
+                                        <div class="modal-body topmargin">
+                                            <h5>Sign up today and we'll give you a free full lesson with a top instructor.</h5>
+                                        
+                                            <form action="#" method="post" role="form" class="landing-wide-form clearfix">
+                                                    <div class="col_one_third nobottommargin">
+                                                        <input type="text" class="form-control input-block-level not-dark" value="" placeholder="Full Name">
+                                                    </div>
+                                                    <div class="col_one_third nobottommargin">
+                                                        <input type="email" class="form-control input-block-level not-dark" value="" placeholder="Email">
+                                                    </div>
+                                                    <div class="col_one_third col_last nobottommargin">
+                                                        <input type="text" class="required form-control input-block-level not-dark" value="" placeholder="Contact number">
+                                                    </div>                                                                                                   
+                                            </form>
+                                                    <div class="modal-footer">
+                                                        <a href="#" class="button button-3d button-rounded button-green" data-notify-position="bottom-full-width" data-notify-type="success" data-dismiss="modal" data-notify-msg="<i class=icon-check-sign></i> All signed up. Thank you. Please check your email for additional details on getting started." onclick="SEMICOLON.widget.notifications(this); return false;">Claim Free Private Lesson</a>     
+                                                    </div>  
+
+                                                                                   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+        <!-- Content
+        ============================================= -->
+
+        <section id="slider" class="force-full-screen full-screen">
+
+            <div class="force-full-screen full-screen dark section nopadding nomargin noborder ohidden">
+
+                    <div class="container clearfix">
+
+                        <div class="slider-caption slider-caption-center" style="position: relative;">
+                            <div data-animate="fadeInUp">
+                                <h1>Private Tutoring</h1>
+                                <p>Get paired with a instructor that fits your needs and receive practice app access and 24/7 phone support.</p>
+                                <a href="#" class="button button-3d button-green button-large noleftmargin nobottommargin" data-toggle="modal" data-target="#myModal" style="margin-top: 20px;">Enroll for a Free Lesson</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                <div class="video-wrap">
+                    <video poster="static/images/instructors.png" preload="auto" loop autoplay muted>
+                        <source src='static/images/videos/' type='video/mp4' />
+                        <source src='static/images/videos/' type='video/webm' />
+                    </video>
+                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.45);"></div>
+                </div>
+                </div>
+
+
+
+
+        </section><!-- #content end -->
+
+        <section>
+
+<!--                 <div class="col_full nobottommargin notopmargin common-height">
+
+                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #1abc9c;">
+                        <div>
+                            <h3 class="uppercase" style="font-weight: 600;">How We Teach</h3>
+                            <p style="line-height: 1.8;">At CPEC, we teach how to master the SAT. We show you how to score better faster than you ever thought possible and have fun while doing it.</p>
+                            <i class="icon-bulb bgicon"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #34495e;">
+                        <div>
+                            <h3 class="uppercase" style="font-weight: 600;">How We Work</h3>
+                            <p style="line-height: 1.8;">Our emphasis is on practice and a conceptual undestanding of what the SAT tests. From that vantage point, we have developed a curriculum testing that targets each student's problem areas</p>
+                            <i class="icon-cog bgicon"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #e74c3c;">
+                        <div>
+                            <h3 class="uppercase" style="font-weight: 600;">Individualize study</h3>
+                            <p style="line-height: 1.8;">We have one of the highest score improvement rates in the country by teaching to the individual and not tothe average of a group students. If you're more advanced in writing but need more help in math, we'll support your needs accordingly.</p>
+                            <i class="icon-thumbs-up bgicon"></i>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div> -->
+
+        <section id="content">
+
+<section id="content">
+
+    <div class="section notopmargin nobottommargin">
+        <div class="container clearfix">
+
+            <div class="heading-block center topmargin bottommargin-lg">
+                <h2>Our Promise</h2>
+                <span>If your child does not seen a 80+ score improvement, we will give you a full refund with no questions asked.</span>           
+            </div>
+
+            <div class="col_half bottommargin notopmargin">
+
+                    <div id="lineChart" style="opacity: 0;">
+                        <h3 class="center">Our Average Score Increase: 306 Points</h3>
+                        <canvas id="lineChartCanvas" width="547" height="300"></canvas>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <script type="text/javascript">
+
+                    jQuery(window).load( function(){
+                        var lineChartData = {
+                            labels : ["Week 0","Week 1","Week 2","Week 3","Week 4","Week 5","Week 6","Week 7","Week 8"],
+                            datasets : [
+                                {
+                                    fillColor : "rgba(220,220,220,0.5)",
+                                    strokeColor : "rgba(220,220,220,1)",
+                                    pointColor : "rgba(220,220,220,1)",
+                                    pointStrokeColor : "#fff",
+                                    data : [0,42,102,145,195,234,257,285,306]
+                                },
+                                {
+                                    fillColor : "rgba(151,187,205,0.5)",
+                                    strokeColor : "rgba(151,187,205,1)",
+                                    pointColor : "rgba(151,187,205,1)",
+                                    pointStrokeColor : "#fff",
+                                    data : [0,22,77,122,152,165,183,195,202]
+                                },
+                                {
+                                    fillColor : "rgba(200,147,165,0.5)",
+                                    strokeColor : "rgba(151,187,205,1)",
+                                    pointColor : "rgba(151,187,205,1)",
+                                    pointStrokeColor : "#fff",
+                                    data : [0,18,64,101,132,156,173,184,215]
+                                }
+                            ]
+                        };
+
+                        var globalGraphSettings = {animation : Modernizr.canvas};
+
+                        function showLineChart(){
+                            var ctx = document.getElementById("lineChartCanvas").getContext("2d");
+                            new Chart(ctx).Line(lineChartData,globalGraphSettings);
+                        }
+
+                        $('#lineChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showLineChart,300); },{accX: 0, accY: -155},'easeInCubic');
+
+                    });
+
+                    </script>
+               
+            </div>
+        
+            <div class="col_half nobottommargin notopmargin col_last">
+
+                <div class="heading-block topmargin-lg">
+                    <h4>Top instruction + custom tech = Results (continued)</h4>
+                </div>
+
+                <h5>We pair our students with top New York instructors and a custom mobile application to suit their practice needs. Progress is fully trackable by you, your child, and our instructors. Our formula is simple: private tutoring + custom practice app = results!</h5>
+            </div>  
+
+        </div>
+
+            <div class="center topmargin bottommargin-lg">   
+                <a href="#" class="button button-3d button-green button-large notopmargin nobottommargin center" data-toggle="modal" data-target="#myModal" style="margin-top: 20px;">Enroll for a Free Lesson</a>
+
+            </div>
+
+    </div>
+    
+</section><!-- #content end -->
+
+            <!-- Copyrights
+            ============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_half">
+                        Copyrights &copy; 2014 All Rights Reserved by Central Park Educational Solutions, Inc.<br>
+                        <div><i class="icon-globe"></i> 79 Madison Ave, 3rd Floor, New York, NY 10016
+                        </div>
+                        <i class="icon-envelope2"></i> support@centralparkedu.com <span class="middot">&middot;</span> <i class="icon-call"></i> (212) 804-8902
+                    </div>
+
+                    <div class="col_half col_last tleft">
+                        <div class="fright clearfix">
+                            <a href="https://www.facebook.com/CentralParkEdu" class="social-icon si-small si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com/centralparkedu" class="social-icon si-small si-borderless si-gplus">
+                                <i class="icon-gplus"></i>
+                                <i class="icon-gplus"></i>
+                            </a>
+                            <a href="https://twitter.com/centralparkedu" class="social-icon si-small si-borderless si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                            </a>
+                            <a href="https://linkedin.com/centralparkedu" class="social-icon si-small si-borderless si-linkedin">
+                                <i class="icon-linkedin"></i>
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+
+        </footer><!-- #footer end -->
+
+    </div><!-- #wrapper end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="static/js/functions.js"></script>
+
+</body>
+</html>
