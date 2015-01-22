@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4F1FAD1A6D7CA20041FCC9 /* WZYPracticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FAC1A6D7CA20041FCC9 /* WZYPracticeController.m */; };
+		AE4F1FB01A6D7E340041FCC9 /* WZYDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FAF1A6D7E340041FCC9 /* WZYDashboardViewController.m */; };
+		AE4F1FB31A6D84740041FCC9 /* WZYLabelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FB21A6D84740041FCC9 /* WZYLabelUtil.m */; };
+		AE4F1FB61A6D8EBE0041FCC9 /* WZYDashboardPerfView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FB51A6D8EBE0041FCC9 /* WZYDashboardPerfView.m */; };
+		AE4F1FB91A6D8EFB0041FCC9 /* WZYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FB81A6D8EFB0041FCC9 /* WZYUser.m */; };
+		AE6A0C811A6B23C3005AD9CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0C801A6B23C3005AD9CE /* main.m */; };
+		AE6A0C841A6B23C3005AD9CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0C831A6B23C3005AD9CE /* AppDelegate.m */; };
+		AE6A0C8C1A6B23C3005AD9CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6A0C8B1A6B23C3005AD9CE /* Images.xcassets */; };
+		AE6A0C8F1A6B23C3005AD9CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6A0C8D1A6B23C3005AD9CE /* LaunchScreen.xib */; };
+		AE6A0C9B1A6B23C3005AD9CE /* WizlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0C9A1A6B23C3005AD9CE /* WizlyTests.m */; };
+		AE6A0CA71A6B2490005AD9CE /* WZYLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0CA61A6B2490005AD9CE /* WZYLaunchViewController.m */; };
+		AE6A0CA91A6B2793005AD9CE /* WZYColors.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0CA81A6B2793005AD9CE /* WZYColors.m */; };
+		AE6A0CAE1A6B2C10005AD9CE /* WZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0CAD1A6B2C10005AD9CE /* WZYButton.m */; };
+		AE86DFE61A6B5C430009FB16 /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE86DFE51A6B5C430009FB16 /* login_bg.png */; };
+		AE86DFE91A6B5F5A0009FB16 /* WZYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE6A0C951A6B23C3005AD9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6A0C731A6B23C3005AD9CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE6A0C7A1A6B23C3005AD9CE;
+			remoteInfo = Wizly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4F1FAB1A6D7CA20041FCC9 /* WZYPracticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYPracticeController.h; path = Classes/WZYPracticeController.h; sourceTree = "<group>"; };
+		AE4F1FAC1A6D7CA20041FCC9 /* WZYPracticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYPracticeController.m; path = Classes/WZYPracticeController.m; sourceTree = "<group>"; };
+		AE4F1FAE1A6D7E340041FCC9 /* WZYDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYDashboardViewController.h; path = Classes/WZYDashboardViewController.h; sourceTree = "<group>"; };
+		AE4F1FAF1A6D7E340041FCC9 /* WZYDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYDashboardViewController.m; path = Classes/WZYDashboardViewController.m; sourceTree = "<group>"; };
+		AE4F1FB11A6D84740041FCC9 /* WZYLabelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYLabelUtil.h; path = Classes/WZYLabelUtil.h; sourceTree = "<group>"; };
+		AE4F1FB21A6D84740041FCC9 /* WZYLabelUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYLabelUtil.m; path = Classes/WZYLabelUtil.m; sourceTree = "<group>"; };
+		AE4F1FB41A6D8EBE0041FCC9 /* WZYDashboardPerfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYDashboardPerfView.h; path = Classes/WZYDashboardPerfView.h; sourceTree = "<group>"; };
+		AE4F1FB51A6D8EBE0041FCC9 /* WZYDashboardPerfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYDashboardPerfView.m; path = Classes/WZYDashboardPerfView.m; sourceTree = "<group>"; };
+		AE4F1FB71A6D8EFB0041FCC9 /* WZYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYUser.h; path = Classes/WZYUser.h; sourceTree = "<group>"; };
+		AE4F1FB81A6D8EFB0041FCC9 /* WZYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYUser.m; path = Classes/WZYUser.m; sourceTree = "<group>"; };
+		AE6A0C7B1A6B23C3005AD9CE /* Wizly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wizly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6A0C7F1A6B23C3005AD9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6A0C801A6B23C3005AD9CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE6A0C821A6B23C3005AD9CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE6A0C831A6B23C3005AD9CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE6A0C8B1A6B23C3005AD9CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE6A0C8E1A6B23C3005AD9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE6A0C941A6B23C3005AD9CE /* WizlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6A0C991A6B23C3005AD9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6A0C9A1A6B23C3005AD9CE /* WizlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizlyTests.m; sourceTree = "<group>"; };
+		AE6A0CA51A6B2490005AD9CE /* WZYLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYLaunchViewController.h; path = Classes/WZYLaunchViewController.h; sourceTree = "<group>"; };
+		AE6A0CA61A6B2490005AD9CE /* WZYLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYLaunchViewController.m; path = Classes/WZYLaunchViewController.m; sourceTree = "<group>"; };
+		AE6A0CA81A6B2793005AD9CE /* WZYColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYColors.m; path = Classes/WZYColors.m; sourceTree = "<group>"; };
+		AE6A0CAA1A6B27A3005AD9CE /* WZYColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZYColors.h; sourceTree = "<group>"; };
+		AE6A0CAC1A6B2C10005AD9CE /* WZYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYButton.h; path = Classes/WZYButton.h; sourceTree = "<group>"; };
+		AE6A0CAD1A6B2C10005AD9CE /* WZYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYButton.m; path = Classes/WZYButton.m; sourceTree = "<group>"; };
+		AE86DFE51A6B5C430009FB16 /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_bg.png; path = Images/login_bg.png; sourceTree = "<group>"; };
+		AE86DFE71A6B5F5A0009FB16 /* WZYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYLoginViewController.h; path = Classes/WZYLoginViewController.h; sourceTree = "<group>"; };
+		AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYLoginViewController.m; path = Classes/WZYLoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6A0C781A6B23C3005AD9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6A0C911A6B23C3005AD9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4F1FAA1A6D7C250041FCC9 /* Test Logic */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F1FAB1A6D7CA20041FCC9 /* WZYPracticeController.h */,
+				AE4F1FAC1A6D7CA20041FCC9 /* WZYPracticeController.m */,
+				AE4F1FB71A6D8EFB0041FCC9 /* WZYUser.h */,
+				AE4F1FB81A6D8EFB0041FCC9 /* WZYUser.m */,
+			);
+			name = "Test Logic";
+			sourceTree = "<group>";
+		};
+		AE6A0C721A6B23C3005AD9CE = {
+			isa = PBXGroup;
+			children = (
+				AE6A0C7D1A6B23C3005AD9CE /* Wizly */,
+				AE6A0C971A6B23C3005AD9CE /* WizlyTests */,
+				AE6A0C7C1A6B23C3005AD9CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE6A0C7C1A6B23C3005AD9CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A0C7B1A6B23C3005AD9CE /* Wizly.app */,
+				AE6A0C941A6B23C3005AD9CE /* WizlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6A0C7D1A6B23C3005AD9CE /* Wizly */ = {
+			isa = PBXGroup;
+			children = (
+				AE86DFE21A6B5BF30009FB16 /* Assets */,
+				AE6A0CA41A6B2451005AD9CE /* Classes */,
+				AE6A0C821A6B23C3005AD9CE /* AppDelegate.h */,
+				AE6A0C831A6B23C3005AD9CE /* AppDelegate.m */,
+				AE6A0C8B1A6B23C3005AD9CE /* Images.xcassets */,
+				AE6A0C8D1A6B23C3005AD9CE /* LaunchScreen.xib */,
+				AE6A0C7E1A6B23C3005AD9CE /* Supporting Files */,
+			);
+			path = Wizly;
+			sourceTree = "<group>";
+		};
+		AE6A0C7E1A6B23C3005AD9CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A0C7F1A6B23C3005AD9CE /* Info.plist */,
+				AE6A0C801A6B23C3005AD9CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6A0C971A6B23C3005AD9CE /* WizlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A0C9A1A6B23C3005AD9CE /* WizlyTests.m */,
+				AE6A0C981A6B23C3005AD9CE /* Supporting Files */,
+			);
+			path = WizlyTests;
+			sourceTree = "<group>";
+		};
+		AE6A0C981A6B23C3005AD9CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A0C991A6B23C3005AD9CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6A0CA41A6B2451005AD9CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F1FAA1A6D7C250041FCC9 /* Test Logic */,
+				AE6A0CAF1A6B2EB8005AD9CE /* Configuration */,
+				AE6A0CAB1A6B2BE4005AD9CE /* Components */,
+				AE6A0CA51A6B2490005AD9CE /* WZYLaunchViewController.h */,
+				AE6A0CA61A6B2490005AD9CE /* WZYLaunchViewController.m */,
+				AE86DFE71A6B5F5A0009FB16 /* WZYLoginViewController.h */,
+				AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */,
+				AE4F1FAE1A6D7E340041FCC9 /* WZYDashboardViewController.h */,
+				AE4F1FAF1A6D7E340041FCC9 /* WZYDashboardViewController.m */,
+				AE4F1FB41A6D8EBE0041FCC9 /* WZYDashboardPerfView.h */,
+				AE4F1FB51A6D8EBE0041FCC9 /* WZYDashboardPerfView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AE6A0CAB1A6B2BE4005AD9CE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A0CAC1A6B2C10005AD9CE /* WZYButton.h */,
+				AE6A0CAD1A6B2C10005AD9CE /* WZYButton.m */,
+				AE4F1FB11A6D84740041FCC9 /* WZYLabelUtil.h */,
+				AE4F1FB21A6D84740041FCC9 /* WZYLabelUtil.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		AE6A0CAF1A6B2EB8005AD9CE /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A0CAA1A6B27A3005AD9CE /* WZYColors.h */,
+				AE6A0CA81A6B2793005AD9CE /* WZYColors.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		AE86DFE21A6B5BF30009FB16 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AE86DFE51A6B5C430009FB16 /* login_bg.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6A0C7A1A6B23C3005AD9CE /* Wizly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6A0C9E1A6B23C3005AD9CE /* Build configuration list for PBXNativeTarget "Wizly" */;
+			buildPhases = (
+				AE6A0C771A6B23C3005AD9CE /* Sources */,
+				AE6A0C781A6B23C3005AD9CE /* Frameworks */,
+				AE6A0C791A6B23C3005AD9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wizly;
+			productName = Wizly;
+			productReference = AE6A0C7B1A6B23C3005AD9CE /* Wizly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE6A0C931A6B23C3005AD9CE /* WizlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6A0CA11A6B23C3005AD9CE /* Build configuration list for PBXNativeTarget "WizlyTests" */;
+			buildPhases = (
+				AE6A0C901A6B23C3005AD9CE /* Sources */,
+				AE6A0C911A6B23C3005AD9CE /* Frameworks */,
+				AE6A0C921A6B23C3005AD9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6A0C961A6B23C3005AD9CE /* PBXTargetDependency */,
+			);
+			name = WizlyTests;
+			productName = WizlyTests;
+			productReference = AE6A0C941A6B23C3005AD9CE /* WizlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6A0C731A6B23C3005AD9CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Central Park Ed";
+				TargetAttributes = {
+					AE6A0C7A1A6B23C3005AD9CE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AE6A0C931A6B23C3005AD9CE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AE6A0C7A1A6B23C3005AD9CE;
+					};
+				};
+			};
+			buildConfigurationList = AE6A0C761A6B23C3005AD9CE /* Build configuration list for PBXProject "Wizly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE6A0C721A6B23C3005AD9CE;
+			productRefGroup = AE6A0C7C1A6B23C3005AD9CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6A0C7A1A6B23C3005AD9CE /* Wizly */,
+				AE6A0C931A6B23C3005AD9CE /* WizlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6A0C791A6B23C3005AD9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A0C8F1A6B23C3005AD9CE /* LaunchScreen.xib in Resources */,
+				AE6A0C8C1A6B23C3005AD9CE /* Images.xcassets in Resources */,
+				AE86DFE61A6B5C430009FB16 /* login_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6A0C921A6B23C3005AD9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6A0C771A6B23C3005AD9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F1FB01A6D7E340041FCC9 /* WZYDashboardViewController.m in Sources */,
+				AE4F1FB61A6D8EBE0041FCC9 /* WZYDashboardPerfView.m in Sources */,
+				AE4F1FAD1A6D7CA20041FCC9 /* WZYPracticeController.m in Sources */,
+				AE6A0CAE1A6B2C10005AD9CE /* WZYButton.m in Sources */,
+				AE6A0C841A6B23C3005AD9CE /* AppDelegate.m in Sources */,
+				AE4F1FB31A6D84740041FCC9 /* WZYLabelUtil.m in Sources */,
+				AE6A0C811A6B23C3005AD9CE /* main.m in Sources */,
+				AE86DFE91A6B5F5A0009FB16 /* WZYLoginViewController.m in Sources */,
+				AE6A0CA91A6B2793005AD9CE /* WZYColors.m in Sources */,
+				AE4F1FB91A6D8EFB0041FCC9 /* WZYUser.m in Sources */,
+				AE6A0CA71A6B2490005AD9CE /* WZYLaunchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6A0C901A6B23C3005AD9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A0C9B1A6B23C3005AD9CE /* WizlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6A0C961A6B23C3005AD9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE6A0C7A1A6B23C3005AD9CE /* Wizly */;
+			targetProxy = AE6A0C951A6B23C3005AD9CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE6A0C8D1A6B23C3005AD9CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6A0C8E1A6B23C3005AD9CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6A0C9C1A6B23C3005AD9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE6A0C9D1A6B23C3005AD9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6A0C9F1A6B23C3005AD9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wizly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE6A0CA01A6B23C3005AD9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wizly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE6A0CA21A6B23C3005AD9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WizlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wizly.app/Wizly";
+			};
+			name = Debug;
+		};
+		AE6A0CA31A6B23C3005AD9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WizlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wizly.app/Wizly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6A0C761A6B23C3005AD9CE /* Build configuration list for PBXProject "Wizly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6A0C9C1A6B23C3005AD9CE /* Debug */,
+				AE6A0C9D1A6B23C3005AD9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6A0C9E1A6B23C3005AD9CE /* Build configuration list for PBXNativeTarget "Wizly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6A0C9F1A6B23C3005AD9CE /* Debug */,
+				AE6A0CA01A6B23C3005AD9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6A0CA11A6B23C3005AD9CE /* Build configuration list for PBXNativeTarget "WizlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6A0CA21A6B23C3005AD9CE /* Debug */,
+				AE6A0CA31A6B23C3005AD9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE6A0C731A6B23C3005AD9CE /* Project object */;
+}
