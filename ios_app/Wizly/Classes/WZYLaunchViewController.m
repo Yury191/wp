@@ -11,6 +11,7 @@
 #import "WZYButton.h"
 #import "WZYColors.h"
 #import "WZYLoginViewController.h"
+#import "WZYNavController.h"
 
 // TODO: remove
 #import "WZYDashboardViewController.h"
@@ -139,7 +140,16 @@ static const CGFloat kButtonSize = 66;
 
 - (void)loginTapped {
   WZYDashboardViewController *loginVC = [[WZYDashboardViewController alloc] init];
-  [self presentViewController:loginVC animated:YES completion:nil];
+  
+  WZYNavController *navVC =
+      [[WZYNavController alloc] initWithRootViewController:loginVC];
+  navVC.edgesForExtendedLayout = UIRectEdgeNone;
+  [navVC.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+  [navVC.navigationBar setShadowImage:[UIImage new]];
+  [navVC.navigationBar setTranslucent:YES];
+  navVC.navigationBar.tintColor = [UIColor whiteColor];
+
+  [self presentViewController:navVC animated:YES completion:nil];
   //[self.navigationController pushViewController:loginVC animated:YES];
 }
 

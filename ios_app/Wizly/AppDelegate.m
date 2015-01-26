@@ -9,21 +9,7 @@
 #import "AppDelegate.h"
 
 #import "WZYLaunchViewController.h"
-
-@interface WZYNavController : UINavigationController
-@end
-
-@implementation WZYNavController
-
-- (UIStatusBarStyle)preferredStatusBarStyle {
-  return [self.topViewController preferredStatusBarStyle];
-}
-
-- (BOOL)prefersStatusBarHidden {
-  return [self.topViewController prefersStatusBarHidden];
-}
-
-@end
+#import "WZYNavController.h"
 
 @interface AppDelegate ()
 

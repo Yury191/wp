@@ -8,6 +8,24 @@
 
 #import "WZYPracticeController.h"
 
+#import "WZYQuestionUtil.h"
+#import "WZYUser.h"
+
+@interface WZYPracticeController ()
+@end
+
 @implementation WZYPracticeController
+
+- (id)initWithNumQuestions:(NSUInteger)numQuestions
+              questionType:(WZYQuestionType)questionType
+                      user:(WZYUser *)user
+                  testMode:(BOOL)testMode {
+  self = [super init];
+  if (self) {
+    _questionArray = [WZYQuestionUtil questionSetForTopics:WZYQuestionTypeReading
+                                              numQuestions:20];
+  }
+  return self;
+}
 
 @end

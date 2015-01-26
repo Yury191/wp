@@ -12,6 +12,7 @@
 #import "WZYColors.h"
 #import "WZYDashboardPerfView.h"
 #import "WZYLabelUtil.h"
+#import "WZYTestSelectionController.h"
 
 static const CGFloat kMarginTop = 48;
 static const CGFloat kMarginTitle = 24;
@@ -35,6 +36,7 @@ static const CGFloat kMarginTitle = 24;
 - (void)viewDidLoad {
   [super viewDidLoad];
 
+  self.title = @"Home";
   self.view.backgroundColor = [WZYColors mainBackgroundColor];
 
   self.settingsButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -64,19 +66,22 @@ static const CGFloat kMarginTitle = 24;
   [self.view addSubview:self.lessonButton];
 
   self.practiceButton = [[WZYButton alloc] initWithFrame:CGRectZero
-                                                 color:[WZYColors colorFromHexString:@"#360063"]];
+                                                 color:[WZYColors purpleColor]];
   self.practiceButton.text = @"practice";
+  [self.practiceButton addTarget:self
+                          action:@selector(practiceTapped)
+                forControlEvents:UIControlEventTouchUpInside];
   [self.view addSubview:self.practiceButton];
 
   self.reviewButton = [[WZYButton alloc] initWithFrame:CGRectZero
-                                                 color:[WZYColors colorFromHexString:@"#006564"]];
+                                                 color:[WZYColors cyanColor]];
   self.reviewButton.text = @"review past questions";
   [self.view addSubview:self.reviewButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
-  [self.navigationController setNavigationBarHidden:NO];
+  [self.navigationController setNavigationBarHidden:YES];
 }
 
 - (void)viewWillLayoutSubviews {
@@ -129,6 +134,13 @@ static const CGFloat kMarginTitle = 24;
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
   return UIStatusBarStyleLightContent;
+}
+
+#pragma mark - Button Press
+
+- (void)practiceTapped {
+  WZYTestSelectionController *testVC = [[WZYTestSelectionController alloc] init];
+  [self.navigationController pushViewController:testVC animated:YES];
 }
 
 #pragma mark - Helpers

@@ -24,4 +24,11 @@
   return label;
 }
 
++ (UILabel *)boldLabelWithSize:(CGFloat)fontSize {
+  UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+  label.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:fontSize];
+  label.textColor = [UIColor whiteColor];
+  return label;
+}
+
 @end

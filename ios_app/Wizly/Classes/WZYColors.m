@@ -20,6 +20,14 @@
   return [WZYColors colorFromHexString:@"#00ACC1"];
 }
 
++ (UIColor *)purpleColor {
+  return [WZYColors colorFromHexString:@"#360063"];
+}
+
++ (UIColor *)cyanColor {
+  return [WZYColors colorFromHexString:@"#006564"];
+}
+
 #pragma mark - Helpers
 
 + (UIColor *)colorFromHexString:(NSString *)hexString {

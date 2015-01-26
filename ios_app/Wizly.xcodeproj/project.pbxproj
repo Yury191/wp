@@ -22,6 +22,12 @@
 		AE6A0CAE1A6B2C10005AD9CE /* WZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0CAD1A6B2C10005AD9CE /* WZYButton.m */; };
 		AE86DFE61A6B5C430009FB16 /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE86DFE51A6B5C430009FB16 /* login_bg.png */; };
 		AE86DFE91A6B5F5A0009FB16 /* WZYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */; };
+		AEA5FB3F1A7469290052686E /* WZYQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB3E1A7469290052686E /* WZYQuestion.m */; };
+		AEA5FB431A7469CB0052686E /* WZYQuestionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB421A7469CB0052686E /* WZYQuestionUtil.m */; };
+		AEA5FB461A746F030052686E /* WZYTestSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB451A746F030052686E /* WZYTestSelectionController.m */; };
+		AEA5FB491A74759F0052686E /* WZYNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB481A74759F0052686E /* WZYNavController.m */; };
+		AEA5FB4C1A7482DF0052686E /* WZYDiagnosticInstructionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB4B1A7482DF0052686E /* WZYDiagnosticInstructionVC.m */; };
+		AEA5FB4F1A7489170052686E /* WZYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB4E1A7489170052686E /* WZYTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,18 @@
 		AE86DFE51A6B5C430009FB16 /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_bg.png; path = Images/login_bg.png; sourceTree = "<group>"; };
 		AE86DFE71A6B5F5A0009FB16 /* WZYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYLoginViewController.h; path = Classes/WZYLoginViewController.h; sourceTree = "<group>"; };
 		AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYLoginViewController.m; path = Classes/WZYLoginViewController.m; sourceTree = "<group>"; };
+		AEA5FB3D1A7469290052686E /* WZYQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYQuestion.h; path = Classes/WZYQuestion.h; sourceTree = "<group>"; };
+		AEA5FB3E1A7469290052686E /* WZYQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYQuestion.m; path = Classes/WZYQuestion.m; sourceTree = "<group>"; };
+		AEA5FB411A7469CB0052686E /* WZYQuestionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYQuestionUtil.h; path = Classes/WZYQuestionUtil.h; sourceTree = "<group>"; };
+		AEA5FB421A7469CB0052686E /* WZYQuestionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYQuestionUtil.m; path = Classes/WZYQuestionUtil.m; sourceTree = "<group>"; };
+		AEA5FB441A746F030052686E /* WZYTestSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTestSelectionController.h; path = Classes/WZYTestSelectionController.h; sourceTree = "<group>"; };
+		AEA5FB451A746F030052686E /* WZYTestSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTestSelectionController.m; path = Classes/WZYTestSelectionController.m; sourceTree = "<group>"; };
+		AEA5FB471A74759F0052686E /* WZYNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYNavController.h; path = Classes/WZYNavController.h; sourceTree = "<group>"; };
+		AEA5FB481A74759F0052686E /* WZYNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYNavController.m; path = Classes/WZYNavController.m; sourceTree = "<group>"; };
+		AEA5FB4A1A7482DF0052686E /* WZYDiagnosticInstructionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYDiagnosticInstructionVC.h; path = Classes/WZYDiagnosticInstructionVC.h; sourceTree = "<group>"; };
+		AEA5FB4B1A7482DF0052686E /* WZYDiagnosticInstructionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYDiagnosticInstructionVC.m; path = Classes/WZYDiagnosticInstructionVC.m; sourceTree = "<group>"; };
+		AEA5FB4D1A7489170052686E /* WZYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTestViewController.h; path = Classes/WZYTestViewController.h; sourceTree = "<group>"; };
+		AEA5FB4E1A7489170052686E /* WZYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTestViewController.m; path = Classes/WZYTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,8 @@
 				AE4F1FAC1A6D7CA20041FCC9 /* WZYPracticeController.m */,
 				AE4F1FB71A6D8EFB0041FCC9 /* WZYUser.h */,
 				AE4F1FB81A6D8EFB0041FCC9 /* WZYUser.m */,
+				AEA5FB3D1A7469290052686E /* WZYQuestion.h */,
+				AEA5FB3E1A7469290052686E /* WZYQuestion.m */,
 			);
 			name = "Test Logic";
 			sourceTree = "<group>";
@@ -156,17 +176,26 @@
 		AE6A0CA41A6B2451005AD9CE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AE4F1FAA1A6D7C250041FCC9 /* Test Logic */,
-				AE6A0CAF1A6B2EB8005AD9CE /* Configuration */,
 				AE6A0CAB1A6B2BE4005AD9CE /* Components */,
+				AE6A0CAF1A6B2EB8005AD9CE /* Configuration */,
+				AEA5FB401A7469BB0052686E /* Questions */,
+				AE4F1FAA1A6D7C250041FCC9 /* Test Logic */,
+				AE4F1FB41A6D8EBE0041FCC9 /* WZYDashboardPerfView.h */,
+				AE4F1FB51A6D8EBE0041FCC9 /* WZYDashboardPerfView.m */,
+				AE4F1FAE1A6D7E340041FCC9 /* WZYDashboardViewController.h */,
+				AE4F1FAF1A6D7E340041FCC9 /* WZYDashboardViewController.m */,
+				AEA5FB4A1A7482DF0052686E /* WZYDiagnosticInstructionVC.h */,
+				AEA5FB4B1A7482DF0052686E /* WZYDiagnosticInstructionVC.m */,
 				AE6A0CA51A6B2490005AD9CE /* WZYLaunchViewController.h */,
 				AE6A0CA61A6B2490005AD9CE /* WZYLaunchViewController.m */,
 				AE86DFE71A6B5F5A0009FB16 /* WZYLoginViewController.h */,
 				AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */,
-				AE4F1FAE1A6D7E340041FCC9 /* WZYDashboardViewController.h */,
-				AE4F1FAF1A6D7E340041FCC9 /* WZYDashboardViewController.m */,
-				AE4F1FB41A6D8EBE0041FCC9 /* WZYDashboardPerfView.h */,
-				AE4F1FB51A6D8EBE0041FCC9 /* WZYDashboardPerfView.m */,
+				AEA5FB471A74759F0052686E /* WZYNavController.h */,
+				AEA5FB481A74759F0052686E /* WZYNavController.m */,
+				AEA5FB441A746F030052686E /* WZYTestSelectionController.h */,
+				AEA5FB451A746F030052686E /* WZYTestSelectionController.m */,
+				AEA5FB4D1A7489170052686E /* WZYTestViewController.h */,
+				AEA5FB4E1A7489170052686E /* WZYTestViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -197,6 +226,15 @@
 				AE86DFE51A6B5C430009FB16 /* login_bg.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		AEA5FB401A7469BB0052686E /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5FB411A7469CB0052686E /* WZYQuestionUtil.h */,
+				AEA5FB421A7469CB0052686E /* WZYQuestionUtil.m */,
+			);
+			name = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +286,7 @@
 				TargetAttributes = {
 					AE6A0C7A1A6B23C3005AD9CE = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7S74942AJ8;
 					};
 					AE6A0C931A6B23C3005AD9CE = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -300,14 +339,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE4F1FB01A6D7E340041FCC9 /* WZYDashboardViewController.m in Sources */,
+				AEA5FB4C1A7482DF0052686E /* WZYDiagnosticInstructionVC.m in Sources */,
 				AE4F1FB61A6D8EBE0041FCC9 /* WZYDashboardPerfView.m in Sources */,
 				AE4F1FAD1A6D7CA20041FCC9 /* WZYPracticeController.m in Sources */,
 				AE6A0CAE1A6B2C10005AD9CE /* WZYButton.m in Sources */,
 				AE6A0C841A6B23C3005AD9CE /* AppDelegate.m in Sources */,
 				AE4F1FB31A6D84740041FCC9 /* WZYLabelUtil.m in Sources */,
+				AEA5FB491A74759F0052686E /* WZYNavController.m in Sources */,
+				AEA5FB3F1A7469290052686E /* WZYQuestion.m in Sources */,
+				AEA5FB461A746F030052686E /* WZYTestSelectionController.m in Sources */,
 				AE6A0C811A6B23C3005AD9CE /* main.m in Sources */,
 				AE86DFE91A6B5F5A0009FB16 /* WZYLoginViewController.m in Sources */,
+				AEA5FB431A7469CB0052686E /* WZYQuestionUtil.m in Sources */,
 				AE6A0CA91A6B2793005AD9CE /* WZYColors.m in Sources */,
+				AEA5FB4F1A7489170052686E /* WZYTestViewController.m in Sources */,
 				AE4F1FB91A6D8EFB0041FCC9 /* WZYUser.m in Sources */,
 				AE6A0CA71A6B2490005AD9CE /* WZYLaunchViewController.m in Sources */,
 			);

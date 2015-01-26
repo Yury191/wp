@@ -12,6 +12,8 @@
 
 + (UIColor *)mainBackgroundColor;
 + (UIColor *)mainButtonColor;
++ (UIColor *)purpleColor;
++ (UIColor *)cyanColor;
 
 + (UIColor *)colorFromHexString:(NSString *)hexString;
 

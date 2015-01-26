@@ -12,5 +12,6 @@
 
 + (UILabel *)defaultLabelWithSize:(CGFloat)fontSize;
 + (UILabel *)ultraLightLabelWithSize:(CGFloat)fontSize;
++ (UILabel *)boldLabelWithSize:(CGFloat)fontSize;
 
 @end

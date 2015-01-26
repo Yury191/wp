@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-// SAT dictionary keys
-const NSString *kSATMathKey = @"kSATMathKey";
-const NSString *kSATVerbalKey = @"kSATVerbalKey";
-const NSString *kSATWritingKey = @"kSATWritingKey";
-
 @interface WZYUser : NSObject
 
 // Personal details
