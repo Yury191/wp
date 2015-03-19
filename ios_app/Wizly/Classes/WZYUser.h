@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString *kParseFirstNameKey;
+extern NSString *kParseLastNameKey;
+extern NSString *kParseHSNameKey;
+extern NSString *kParseHSYearKey;
+extern NSString *kParsePhoneKey;
+
 @interface WZYUser : NSObject
 
 // Personal details
@@ -17,11 +23,5 @@
 @property(nonatomic) NSString *phoneNumber;
 
 @property(nonatomic) NSNumber *tutoringCredits;
-
-/** Returns an NSDictionary of NSNumbers keyed to the SAT section **/
-- (NSDictionary *)satScoreEstimate;
-
-/** Returns an NSDictionary of NSNumbers keyed to the ACT section **/
-- (NSDictionary *)actScoreEstimate;
 
 @end

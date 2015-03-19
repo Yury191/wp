@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1778081A868DD300278AB5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778031A868DD300278AB5 /* Bolts.framework */; };
+		AE1778091A868DD300278AB5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778041A868DD300278AB5 /* Parse.framework */; };
+		AE17780A1A868DD300278AB5 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778051A868DD300278AB5 /* ParseCrashReporting.framework */; };
+		AE17780B1A868DD400278AB5 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778061A868DD300278AB5 /* ParseFacebookUtils.framework */; };
+		AE17780C1A868DD400278AB5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778071A868DD300278AB5 /* ParseUI.framework */; };
+		AE17780E1A868DFA00278AB5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17780D1A868DFA00278AB5 /* Accounts.framework */; };
+		AE1778101A868E0300278AB5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17780F1A868E0300278AB5 /* AudioToolbox.framework */; };
+		AE1778121A868E1600278AB5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778111A868E1600278AB5 /* CFNetwork.framework */; };
+		AE17781D1A868E6100278AB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778131A868E6100278AB5 /* CoreGraphics.framework */; };
+		AE17781E1A868E6100278AB5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778141A868E6100278AB5 /* CoreLocation.framework */; };
+		AE17781F1A868E6100278AB5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778151A868E6100278AB5 /* libsqlite3.dylib */; };
+		AE1778201A868E6100278AB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778161A868E6100278AB5 /* libz.dylib */; };
+		AE1778211A868E6100278AB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778171A868E6100278AB5 /* MobileCoreServices.framework */; };
+		AE1778221A868E6100278AB5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778181A868E6100278AB5 /* QuartzCore.framework */; };
+		AE1778231A868E6100278AB5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1778191A868E6100278AB5 /* Security.framework */; };
+		AE1778241A868E6100278AB5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17781A1A868E6100278AB5 /* Social.framework */; };
+		AE1778251A868E6100278AB5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17781B1A868E6100278AB5 /* StoreKit.framework */; };
+		AE1778261A868E6100278AB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17781C1A868E6100278AB5 /* SystemConfiguration.framework */; };
+		AE1778291A8690CB00278AB5 /* WZYSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1778281A8690CB00278AB5 /* WZYSignUpViewController.m */; };
+		AE17782C1A86997300278AB5 /* WZYTextFieldUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AE17782B1A86997300278AB5 /* WZYTextFieldUtil.m */; };
+		AE17782F1A86CAD700278AB5 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17782D1A86CAD600278AB5 /* FacebookSDK.framework */; };
+		AE1778301A86CAD700278AB5 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE17782E1A86CAD700278AB5 /* FBAudienceNetwork.framework */; };
+		AE1778331A86D72200278AB5 /* WZYFBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1778321A86D72200278AB5 /* WZYFBViewController.m */; };
+		AE1778381A86EBE100278AB5 /* WZYQuestionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1778371A86EBE100278AB5 /* WZYQuestionStore.m */; };
+		AE1E951B1A9A627100EC02F8 /* WZYContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1E951A1A9A627100EC02F8 /* WZYContactVC.m */; };
+		AE2DA8E41A9953ED00D6A020 /* WZYTestConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2DA8E31A9953ED00D6A020 /* WZYTestConfigVC.m */; };
 		AE4F1FAD1A6D7CA20041FCC9 /* WZYPracticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FAC1A6D7CA20041FCC9 /* WZYPracticeController.m */; };
 		AE4F1FB01A6D7E340041FCC9 /* WZYDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FAF1A6D7E340041FCC9 /* WZYDashboardViewController.m */; };
 		AE4F1FB31A6D84740041FCC9 /* WZYLabelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F1FB21A6D84740041FCC9 /* WZYLabelUtil.m */; };
@@ -22,12 +48,25 @@
 		AE6A0CAE1A6B2C10005AD9CE /* WZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6A0CAD1A6B2C10005AD9CE /* WZYButton.m */; };
 		AE86DFE61A6B5C430009FB16 /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE86DFE51A6B5C430009FB16 /* login_bg.png */; };
 		AE86DFE91A6B5F5A0009FB16 /* WZYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */; };
+		AE8800FD1A9C2349007C06C5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE8800FC1A9C2349007C06C5 /* logo.png */; };
+		AE962BDA1A9129B300EB8817 /* WZYDNAVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE962BD91A9129B300EB8817 /* WZYDNAVC.m */; };
+		AE962BEA1A91581000EB8817 /* WZYPassageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE962BE91A91581000EB8817 /* WZYPassageVC.m */; };
+		AE962BF31A91A03300EB8817 /* 515.3.Answer.1.Figure.png in Resources */ = {isa = PBXBuildFile; fileRef = AE962BED1A91A03300EB8817 /* 515.3.Answer.1.Figure.png */; };
+		AE962BF41A91A03300EB8817 /* 515.3.Answer.2.Figure.png in Resources */ = {isa = PBXBuildFile; fileRef = AE962BEE1A91A03300EB8817 /* 515.3.Answer.2.Figure.png */; };
+		AE962BF51A91A03300EB8817 /* 515.3.Answer.3.Figure.png in Resources */ = {isa = PBXBuildFile; fileRef = AE962BEF1A91A03300EB8817 /* 515.3.Answer.3.Figure.png */; };
+		AE962BF61A91A03300EB8817 /* 515.3.Answer.4.Figure.png in Resources */ = {isa = PBXBuildFile; fileRef = AE962BF01A91A03300EB8817 /* 515.3.Answer.4.Figure.png */; };
+		AE962BF71A91A03300EB8817 /* 515.3.Answer.5.Figure.png in Resources */ = {isa = PBXBuildFile; fileRef = AE962BF11A91A03300EB8817 /* 515.3.Answer.5.Figure.png */; };
+		AE962BF81A91A03300EB8817 /* 515.3.Question.Figure.png in Resources */ = {isa = PBXBuildFile; fileRef = AE962BF21A91A03300EB8817 /* 515.3.Question.Figure.png */; };
+		AE962BFB1A923EBF00EB8817 /* WZYScoreCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE962BFA1A923EBF00EB8817 /* WZYScoreCalculator.m */; };
 		AEA5FB3F1A7469290052686E /* WZYQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB3E1A7469290052686E /* WZYQuestion.m */; };
 		AEA5FB431A7469CB0052686E /* WZYQuestionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB421A7469CB0052686E /* WZYQuestionUtil.m */; };
 		AEA5FB461A746F030052686E /* WZYTestSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB451A746F030052686E /* WZYTestSelectionController.m */; };
 		AEA5FB491A74759F0052686E /* WZYNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB481A74759F0052686E /* WZYNavController.m */; };
 		AEA5FB4C1A7482DF0052686E /* WZYDiagnosticInstructionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB4B1A7482DF0052686E /* WZYDiagnosticInstructionVC.m */; };
 		AEA5FB4F1A7489170052686E /* WZYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FB4E1A7489170052686E /* WZYTestViewController.m */; };
+		AEC6ABC11A8F6FBA001419C9 /* WZYTestHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6ABC01A8F6FBA001419C9 /* WZYTestHistoryVC.m */; };
+		AEC6ABC41A8F71BC001419C9 /* WZYTestSession.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6ABC31A8F71BC001419C9 /* WZYTestSession.m */; };
+		AEE1C0161A7DA1A50072C072 /* WZYResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE1C0151A7DA1A50072C072 /* WZYResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +80,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE1778031A868DD300278AB5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AE1778041A868DD300278AB5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AE1778051A868DD300278AB5 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		AE1778061A868DD300278AB5 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		AE1778071A868DD300278AB5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		AE17780D1A868DFA00278AB5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AE17780F1A868E0300278AB5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AE1778111A868E1600278AB5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AE1778131A868E6100278AB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE1778141A868E6100278AB5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE1778151A868E6100278AB5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AE1778161A868E6100278AB5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AE1778171A868E6100278AB5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AE1778181A868E6100278AB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE1778191A868E6100278AB5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AE17781A1A868E6100278AB5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		AE17781B1A868E6100278AB5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AE17781C1A868E6100278AB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE1778271A8690CB00278AB5 /* WZYSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYSignUpViewController.h; path = Classes/WZYSignUpViewController.h; sourceTree = "<group>"; };
+		AE1778281A8690CB00278AB5 /* WZYSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYSignUpViewController.m; path = Classes/WZYSignUpViewController.m; sourceTree = "<group>"; };
+		AE17782A1A86997300278AB5 /* WZYTextFieldUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTextFieldUtil.h; path = Classes/WZYTextFieldUtil.h; sourceTree = "<group>"; };
+		AE17782B1A86997300278AB5 /* WZYTextFieldUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTextFieldUtil.m; path = Classes/WZYTextFieldUtil.m; sourceTree = "<group>"; };
+		AE17782D1A86CAD600278AB5 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		AE17782E1A86CAD700278AB5 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		AE1778311A86D72200278AB5 /* WZYFBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYFBViewController.h; path = Classes/WZYFBViewController.h; sourceTree = "<group>"; };
+		AE1778321A86D72200278AB5 /* WZYFBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYFBViewController.m; path = Classes/WZYFBViewController.m; sourceTree = "<group>"; };
+		AE1778361A86EBE100278AB5 /* WZYQuestionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYQuestionStore.h; path = Classes/WZYQuestionStore.h; sourceTree = "<group>"; };
+		AE1778371A86EBE100278AB5 /* WZYQuestionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYQuestionStore.m; path = Classes/WZYQuestionStore.m; sourceTree = "<group>"; };
+		AE1E95191A9A627100EC02F8 /* WZYContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYContactVC.h; path = Classes/WZYContactVC.h; sourceTree = "<group>"; };
+		AE1E951A1A9A627100EC02F8 /* WZYContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYContactVC.m; path = Classes/WZYContactVC.m; sourceTree = "<group>"; };
+		AE2DA8E21A9953ED00D6A020 /* WZYTestConfigVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTestConfigVC.h; path = Classes/WZYTestConfigVC.h; sourceTree = "<group>"; };
+		AE2DA8E31A9953ED00D6A020 /* WZYTestConfigVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTestConfigVC.m; path = Classes/WZYTestConfigVC.m; sourceTree = "<group>"; };
 		AE4F1FAB1A6D7CA20041FCC9 /* WZYPracticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYPracticeController.h; path = Classes/WZYPracticeController.h; sourceTree = "<group>"; };
 		AE4F1FAC1A6D7CA20041FCC9 /* WZYPracticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYPracticeController.m; path = Classes/WZYPracticeController.m; sourceTree = "<group>"; };
 		AE4F1FAE1A6D7E340041FCC9 /* WZYDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYDashboardViewController.h; path = Classes/WZYDashboardViewController.h; sourceTree = "<group>"; };
@@ -51,7 +122,7 @@
 		AE4F1FB51A6D8EBE0041FCC9 /* WZYDashboardPerfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYDashboardPerfView.m; path = Classes/WZYDashboardPerfView.m; sourceTree = "<group>"; };
 		AE4F1FB71A6D8EFB0041FCC9 /* WZYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYUser.h; path = Classes/WZYUser.h; sourceTree = "<group>"; };
 		AE4F1FB81A6D8EFB0041FCC9 /* WZYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYUser.m; path = Classes/WZYUser.m; sourceTree = "<group>"; };
-		AE6A0C7B1A6B23C3005AD9CE /* Wizly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wizly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6A0C7B1A6B23C3005AD9CE /* prepwithG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prepwithG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6A0C7F1A6B23C3005AD9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6A0C801A6B23C3005AD9CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE6A0C821A6B23C3005AD9CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +141,19 @@
 		AE86DFE51A6B5C430009FB16 /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_bg.png; path = Images/login_bg.png; sourceTree = "<group>"; };
 		AE86DFE71A6B5F5A0009FB16 /* WZYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYLoginViewController.h; path = Classes/WZYLoginViewController.h; sourceTree = "<group>"; };
 		AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYLoginViewController.m; path = Classes/WZYLoginViewController.m; sourceTree = "<group>"; };
+		AE8800FC1A9C2349007C06C5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images/logo.png; sourceTree = "<group>"; };
+		AE962BD81A9129B300EB8817 /* WZYDNAVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYDNAVC.h; path = Classes/WZYDNAVC.h; sourceTree = "<group>"; };
+		AE962BD91A9129B300EB8817 /* WZYDNAVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYDNAVC.m; path = Classes/WZYDNAVC.m; sourceTree = "<group>"; };
+		AE962BE81A91581000EB8817 /* WZYPassageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYPassageVC.h; path = Classes/WZYPassageVC.h; sourceTree = "<group>"; };
+		AE962BE91A91581000EB8817 /* WZYPassageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYPassageVC.m; path = Classes/WZYPassageVC.m; sourceTree = "<group>"; };
+		AE962BED1A91A03300EB8817 /* 515.3.Answer.1.Figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 515.3.Answer.1.Figure.png; path = Images/515.3.Answer.1.Figure.png; sourceTree = "<group>"; };
+		AE962BEE1A91A03300EB8817 /* 515.3.Answer.2.Figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 515.3.Answer.2.Figure.png; path = Images/515.3.Answer.2.Figure.png; sourceTree = "<group>"; };
+		AE962BEF1A91A03300EB8817 /* 515.3.Answer.3.Figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 515.3.Answer.3.Figure.png; path = Images/515.3.Answer.3.Figure.png; sourceTree = "<group>"; };
+		AE962BF01A91A03300EB8817 /* 515.3.Answer.4.Figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 515.3.Answer.4.Figure.png; path = Images/515.3.Answer.4.Figure.png; sourceTree = "<group>"; };
+		AE962BF11A91A03300EB8817 /* 515.3.Answer.5.Figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 515.3.Answer.5.Figure.png; path = Images/515.3.Answer.5.Figure.png; sourceTree = "<group>"; };
+		AE962BF21A91A03300EB8817 /* 515.3.Question.Figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 515.3.Question.Figure.png; path = Images/515.3.Question.Figure.png; sourceTree = "<group>"; };
+		AE962BF91A923EBF00EB8817 /* WZYScoreCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYScoreCalculator.h; path = Classes/WZYScoreCalculator.h; sourceTree = "<group>"; };
+		AE962BFA1A923EBF00EB8817 /* WZYScoreCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYScoreCalculator.m; path = Classes/WZYScoreCalculator.m; sourceTree = "<group>"; };
 		AEA5FB3D1A7469290052686E /* WZYQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYQuestion.h; path = Classes/WZYQuestion.h; sourceTree = "<group>"; };
 		AEA5FB3E1A7469290052686E /* WZYQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYQuestion.m; path = Classes/WZYQuestion.m; sourceTree = "<group>"; };
 		AEA5FB411A7469CB0052686E /* WZYQuestionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYQuestionUtil.h; path = Classes/WZYQuestionUtil.h; sourceTree = "<group>"; };
@@ -82,6 +166,12 @@
 		AEA5FB4B1A7482DF0052686E /* WZYDiagnosticInstructionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYDiagnosticInstructionVC.m; path = Classes/WZYDiagnosticInstructionVC.m; sourceTree = "<group>"; };
 		AEA5FB4D1A7489170052686E /* WZYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTestViewController.h; path = Classes/WZYTestViewController.h; sourceTree = "<group>"; };
 		AEA5FB4E1A7489170052686E /* WZYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTestViewController.m; path = Classes/WZYTestViewController.m; sourceTree = "<group>"; };
+		AEC6ABBF1A8F6FBA001419C9 /* WZYTestHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTestHistoryVC.h; path = Classes/WZYTestHistoryVC.h; sourceTree = "<group>"; };
+		AEC6ABC01A8F6FBA001419C9 /* WZYTestHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTestHistoryVC.m; path = Classes/WZYTestHistoryVC.m; sourceTree = "<group>"; };
+		AEC6ABC21A8F71BC001419C9 /* WZYTestSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYTestSession.h; path = Classes/WZYTestSession.h; sourceTree = "<group>"; };
+		AEC6ABC31A8F71BC001419C9 /* WZYTestSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYTestSession.m; path = Classes/WZYTestSession.m; sourceTree = "<group>"; };
+		AEE1C0141A7DA1A50072C072 /* WZYResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZYResultsViewController.h; path = Classes/WZYResultsViewController.h; sourceTree = "<group>"; };
+		AEE1C0151A7DA1A50072C072 /* WZYResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZYResultsViewController.m; path = Classes/WZYResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +179,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE17781D1A868E6100278AB5 /* CoreGraphics.framework in Frameworks */,
+				AE17782F1A86CAD700278AB5 /* FacebookSDK.framework in Frameworks */,
+				AE17781E1A868E6100278AB5 /* CoreLocation.framework in Frameworks */,
+				AE1778301A86CAD700278AB5 /* FBAudienceNetwork.framework in Frameworks */,
+				AE17781F1A868E6100278AB5 /* libsqlite3.dylib in Frameworks */,
+				AE1778201A868E6100278AB5 /* libz.dylib in Frameworks */,
+				AE1778211A868E6100278AB5 /* MobileCoreServices.framework in Frameworks */,
+				AE1778221A868E6100278AB5 /* QuartzCore.framework in Frameworks */,
+				AE1778231A868E6100278AB5 /* Security.framework in Frameworks */,
+				AE1778241A868E6100278AB5 /* Social.framework in Frameworks */,
+				AE1778251A868E6100278AB5 /* StoreKit.framework in Frameworks */,
+				AE1778261A868E6100278AB5 /* SystemConfiguration.framework in Frameworks */,
+				AE1778121A868E1600278AB5 /* CFNetwork.framework in Frameworks */,
+				AE1778101A868E0300278AB5 /* AudioToolbox.framework in Frameworks */,
+				AE17780E1A868DFA00278AB5 /* Accounts.framework in Frameworks */,
+				AE1778091A868DD300278AB5 /* Parse.framework in Frameworks */,
+				AE17780A1A868DD300278AB5 /* ParseCrashReporting.framework in Frameworks */,
+				AE17780C1A868DD400278AB5 /* ParseUI.framework in Frameworks */,
+				AE17780B1A868DD400278AB5 /* ParseFacebookUtils.framework in Frameworks */,
+				AE1778081A868DD300278AB5 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +212,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE1778021A868DBB00278AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE17782D1A86CAD600278AB5 /* FacebookSDK.framework */,
+				AE17782E1A86CAD700278AB5 /* FBAudienceNetwork.framework */,
+				AE17780D1A868DFA00278AB5 /* Accounts.framework */,
+				AE17780F1A868E0300278AB5 /* AudioToolbox.framework */,
+				AE1778031A868DD300278AB5 /* Bolts.framework */,
+				AE1778111A868E1600278AB5 /* CFNetwork.framework */,
+				AE1778131A868E6100278AB5 /* CoreGraphics.framework */,
+				AE1778141A868E6100278AB5 /* CoreLocation.framework */,
+				AE1778151A868E6100278AB5 /* libsqlite3.dylib */,
+				AE1778161A868E6100278AB5 /* libz.dylib */,
+				AE1778171A868E6100278AB5 /* MobileCoreServices.framework */,
+				AE1778041A868DD300278AB5 /* Parse.framework */,
+				AE1778051A868DD300278AB5 /* ParseCrashReporting.framework */,
+				AE1778061A868DD300278AB5 /* ParseFacebookUtils.framework */,
+				AE1778071A868DD300278AB5 /* ParseUI.framework */,
+				AE1778181A868E6100278AB5 /* QuartzCore.framework */,
+				AE1778191A868E6100278AB5 /* Security.framework */,
+				AE17781A1A868E6100278AB5 /* Social.framework */,
+				AE17781B1A868E6100278AB5 /* StoreKit.framework */,
+				AE17781C1A868E6100278AB5 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE4F1FAA1A6D7C250041FCC9 /* Test Logic */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +248,10 @@
 				AE4F1FB81A6D8EFB0041FCC9 /* WZYUser.m */,
 				AEA5FB3D1A7469290052686E /* WZYQuestion.h */,
 				AEA5FB3E1A7469290052686E /* WZYQuestion.m */,
+				AEC6ABC21A8F71BC001419C9 /* WZYTestSession.h */,
+				AEC6ABC31A8F71BC001419C9 /* WZYTestSession.m */,
+				AE962BF91A923EBF00EB8817 /* WZYScoreCalculator.h */,
+				AE962BFA1A923EBF00EB8817 /* WZYScoreCalculator.m */,
 			);
 			name = "Test Logic";
 			sourceTree = "<group>";
@@ -121,13 +262,14 @@
 				AE6A0C7D1A6B23C3005AD9CE /* Wizly */,
 				AE6A0C971A6B23C3005AD9CE /* WizlyTests */,
 				AE6A0C7C1A6B23C3005AD9CE /* Products */,
+				AE1778021A868DBB00278AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		AE6A0C7C1A6B23C3005AD9CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE6A0C7B1A6B23C3005AD9CE /* Wizly.app */,
+				AE6A0C7B1A6B23C3005AD9CE /* prepwithG.app */,
 				AE6A0C941A6B23C3005AD9CE /* WizlyTests.xctest */,
 			);
 			name = Products;
@@ -192,10 +334,26 @@
 				AE86DFE81A6B5F5A0009FB16 /* WZYLoginViewController.m */,
 				AEA5FB471A74759F0052686E /* WZYNavController.h */,
 				AEA5FB481A74759F0052686E /* WZYNavController.m */,
+				AEE1C0141A7DA1A50072C072 /* WZYResultsViewController.h */,
+				AEE1C0151A7DA1A50072C072 /* WZYResultsViewController.m */,
+				AE1778271A8690CB00278AB5 /* WZYSignUpViewController.h */,
+				AE1778281A8690CB00278AB5 /* WZYSignUpViewController.m */,
 				AEA5FB441A746F030052686E /* WZYTestSelectionController.h */,
 				AEA5FB451A746F030052686E /* WZYTestSelectionController.m */,
 				AEA5FB4D1A7489170052686E /* WZYTestViewController.h */,
 				AEA5FB4E1A7489170052686E /* WZYTestViewController.m */,
+				AE1778311A86D72200278AB5 /* WZYFBViewController.h */,
+				AE1778321A86D72200278AB5 /* WZYFBViewController.m */,
+				AEC6ABBF1A8F6FBA001419C9 /* WZYTestHistoryVC.h */,
+				AEC6ABC01A8F6FBA001419C9 /* WZYTestHistoryVC.m */,
+				AE962BD81A9129B300EB8817 /* WZYDNAVC.h */,
+				AE962BD91A9129B300EB8817 /* WZYDNAVC.m */,
+				AE962BE81A91581000EB8817 /* WZYPassageVC.h */,
+				AE962BE91A91581000EB8817 /* WZYPassageVC.m */,
+				AE2DA8E21A9953ED00D6A020 /* WZYTestConfigVC.h */,
+				AE2DA8E31A9953ED00D6A020 /* WZYTestConfigVC.m */,
+				AE1E95191A9A627100EC02F8 /* WZYContactVC.h */,
+				AE1E951A1A9A627100EC02F8 /* WZYContactVC.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -207,6 +365,8 @@
 				AE6A0CAD1A6B2C10005AD9CE /* WZYButton.m */,
 				AE4F1FB11A6D84740041FCC9 /* WZYLabelUtil.h */,
 				AE4F1FB21A6D84740041FCC9 /* WZYLabelUtil.m */,
+				AE17782A1A86997300278AB5 /* WZYTextFieldUtil.h */,
+				AE17782B1A86997300278AB5 /* WZYTextFieldUtil.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -223,9 +383,24 @@
 		AE86DFE21A6B5BF30009FB16 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AE8800FC1A9C2349007C06C5 /* logo.png */,
+				AE962BDB1A91515D00EB8817 /* Test Assets */,
 				AE86DFE51A6B5C430009FB16 /* login_bg.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		AE962BDB1A91515D00EB8817 /* Test Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AE962BED1A91A03300EB8817 /* 515.3.Answer.1.Figure.png */,
+				AE962BEE1A91A03300EB8817 /* 515.3.Answer.2.Figure.png */,
+				AE962BEF1A91A03300EB8817 /* 515.3.Answer.3.Figure.png */,
+				AE962BF01A91A03300EB8817 /* 515.3.Answer.4.Figure.png */,
+				AE962BF11A91A03300EB8817 /* 515.3.Answer.5.Figure.png */,
+				AE962BF21A91A03300EB8817 /* 515.3.Question.Figure.png */,
+			);
+			name = "Test Assets";
 			sourceTree = "<group>";
 		};
 		AEA5FB401A7469BB0052686E /* Questions */ = {
@@ -233,6 +408,8 @@
 			children = (
 				AEA5FB411A7469CB0052686E /* WZYQuestionUtil.h */,
 				AEA5FB421A7469CB0052686E /* WZYQuestionUtil.m */,
+				AE1778361A86EBE100278AB5 /* WZYQuestionStore.h */,
+				AE1778371A86EBE100278AB5 /* WZYQuestionStore.m */,
 			);
 			name = Questions;
 			sourceTree = "<group>";
@@ -254,7 +431,7 @@
 			);
 			name = Wizly;
 			productName = Wizly;
-			productReference = AE6A0C7B1A6B23C3005AD9CE /* Wizly.app */;
+			productReference = AE6A0C7B1A6B23C3005AD9CE /* prepwithG.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AE6A0C931A6B23C3005AD9CE /* WizlyTests */ = {
@@ -286,7 +463,7 @@
 				TargetAttributes = {
 					AE6A0C7A1A6B23C3005AD9CE = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 7S74942AJ8;
+						DevelopmentTeam = RDM2TP379R;
 					};
 					AE6A0C931A6B23C3005AD9CE = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -318,9 +495,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE962BF61A91A03300EB8817 /* 515.3.Answer.4.Figure.png in Resources */,
+				AE962BF41A91A03300EB8817 /* 515.3.Answer.2.Figure.png in Resources */,
 				AE6A0C8F1A6B23C3005AD9CE /* LaunchScreen.xib in Resources */,
 				AE6A0C8C1A6B23C3005AD9CE /* Images.xcassets in Resources */,
 				AE86DFE61A6B5C430009FB16 /* login_bg.png in Resources */,
+				AE962BF51A91A03300EB8817 /* 515.3.Answer.3.Figure.png in Resources */,
+				AE8800FD1A9C2349007C06C5 /* logo.png in Resources */,
+				AE962BF81A91A03300EB8817 /* 515.3.Question.Figure.png in Resources */,
+				AE962BF31A91A03300EB8817 /* 515.3.Answer.1.Figure.png in Resources */,
+				AE962BF71A91A03300EB8817 /* 515.3.Answer.5.Figure.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,23 +522,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2DA8E41A9953ED00D6A020 /* WZYTestConfigVC.m in Sources */,
 				AE4F1FB01A6D7E340041FCC9 /* WZYDashboardViewController.m in Sources */,
 				AEA5FB4C1A7482DF0052686E /* WZYDiagnosticInstructionVC.m in Sources */,
 				AE4F1FB61A6D8EBE0041FCC9 /* WZYDashboardPerfView.m in Sources */,
+				AE962BDA1A9129B300EB8817 /* WZYDNAVC.m in Sources */,
+				AE962BEA1A91581000EB8817 /* WZYPassageVC.m in Sources */,
+				AE1778331A86D72200278AB5 /* WZYFBViewController.m in Sources */,
 				AE4F1FAD1A6D7CA20041FCC9 /* WZYPracticeController.m in Sources */,
 				AE6A0CAE1A6B2C10005AD9CE /* WZYButton.m in Sources */,
 				AE6A0C841A6B23C3005AD9CE /* AppDelegate.m in Sources */,
 				AE4F1FB31A6D84740041FCC9 /* WZYLabelUtil.m in Sources */,
 				AEA5FB491A74759F0052686E /* WZYNavController.m in Sources */,
 				AEA5FB3F1A7469290052686E /* WZYQuestion.m in Sources */,
+				AE1E951B1A9A627100EC02F8 /* WZYContactVC.m in Sources */,
 				AEA5FB461A746F030052686E /* WZYTestSelectionController.m in Sources */,
 				AE6A0C811A6B23C3005AD9CE /* main.m in Sources */,
+				AEC6ABC11A8F6FBA001419C9 /* WZYTestHistoryVC.m in Sources */,
 				AE86DFE91A6B5F5A0009FB16 /* WZYLoginViewController.m in Sources */,
 				AEA5FB431A7469CB0052686E /* WZYQuestionUtil.m in Sources */,
+				AE1778381A86EBE100278AB5 /* WZYQuestionStore.m in Sources */,
+				AE962BFB1A923EBF00EB8817 /* WZYScoreCalculator.m in Sources */,
+				AE17782C1A86997300278AB5 /* WZYTextFieldUtil.m in Sources */,
+				AEC6ABC41A8F71BC001419C9 /* WZYTestSession.m in Sources */,
 				AE6A0CA91A6B2793005AD9CE /* WZYColors.m in Sources */,
+				AEE1C0161A7DA1A50072C072 /* WZYResultsViewController.m in Sources */,
 				AEA5FB4F1A7489170052686E /* WZYTestViewController.m in Sources */,
 				AE4F1FB91A6D8EFB0041FCC9 /* WZYUser.m in Sources */,
 				AE6A0CA71A6B2490005AD9CE /* WZYLaunchViewController.m in Sources */,
+				AE1778291A8690CB00278AB5 /* WZYSignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,10 +666,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Wizly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = prepwithG;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,10 +686,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Wizly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = prepwithG;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

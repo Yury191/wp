@@ -8,6 +8,8 @@
 
 #import "WZYButton.h"
 
+static const CGFloat kImagePadding = 8;
+
 @interface WZYButton ()
 @end
 
@@ -21,18 +23,32 @@
     _textLabel = [[UILabel alloc] initWithFrame:CGRectZero];
     _textLabel.textColor = [UIColor whiteColor];
     _textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:22.0];
-    [self addSubview:self.textLabel];
+    _textLabel.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:_textLabel];
+
+    _imageView = [[UIImageView alloc] init];
+    _imageView.hidden = YES;
+    _imageView.contentMode = UIViewContentModeScaleAspectFit;
+    [self addSubview:_imageView];
   }
   return self;
 }
 
+- (void)dealloc {
+  _image = nil;
+}
+
 - (void)layoutSubviews {
   [self.textLabel sizeToFit];
-  CGSize labelSize = self.textLabel.frame.size;
-  self.textLabel.frame = CGRectMake(CGRectGetWidth(self.frame) / 2 - labelSize.width / 2,
-                                    CGRectGetHeight(self.frame) / 2 - labelSize.height / 2,
-                                    labelSize.width,
-                                    labelSize.height);
+  self.textLabel.frame = CGRectMake(16.0,
+                                    0,
+                                    self.frame.size.width - 32.0,
+                                    self.frame.size.height);
+
+  self.imageView.frame = CGRectMake(kImagePadding,
+                                    kImagePadding,
+                                    self.frame.size.width - kImagePadding * 2,
+                                    self.frame.size.height - kImagePadding * 2);
 }
 
 - (void)setColor:(UIColor *)color {
@@ -46,6 +62,26 @@
   [self setNeedsLayout];
 }
 
+- (void)setImage:(UIImage *)image {
+  _image = image;
+  if (image) {
+    self.imageView.hidden = NO;
+  } else {
+    self.imageView.hidden = YES;
+  }
+  [self.imageView setImage:image];
+  [self setNeedsLayout];
+}
+
+- (void)setEnabled:(BOOL)enabled {
+  [super setEnabled:enabled];
+  if (enabled) {
+    self.alpha = 1.0;
+  } else {
+    self.alpha = 0.3;
+  }
+}
+
 #pragma mark - Touch Events
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -55,6 +91,11 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
   [super touchesEnded:touches withEvent:event];
+  self.alpha = 1.0;
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+  [super touchesCancelled:touches withEvent:event];
   self.alpha = 1.0;
 }
 

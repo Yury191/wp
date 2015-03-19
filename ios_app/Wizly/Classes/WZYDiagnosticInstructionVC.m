@@ -13,7 +13,6 @@
 #import "WZYLabelUtil.h"
 
 static const CGFloat kLeftMargin = 24.0;
-static const CGFloat kTopMargin = 16.0;
 
 @interface WZYDiagnosticInstructionVC ()
 @property(nonatomic) UILabel *titleLabel;

@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 
+#import <FacebookSDK/FacebookSDK.h>
+#import <Parse/Parse.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+
+#import "WZYColors.h"
 #import "WZYLaunchViewController.h"
 #import "WZYNavController.h"
 
@@ -20,7 +25,17 @@
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  // Authenticate Parse
+  [Parse enableLocalDatastore];
+  [Parse setApplicationId:@"MI2opErToPmNKOOoiM66fOwwrJ94sJk4DESasinz"
+                clientKey:@"favtfq2poNchyqk1jZdyPzGdphcVI0l5PXjTTNVT"];
+
+  [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+  [PFFacebookUtils initializeFacebook];
+
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  self.window.backgroundColor = [WZYColors mainBackgroundColor];
 
   WZYLaunchViewController *rootVC = [[WZYLaunchViewController alloc] init];
 
@@ -34,6 +49,7 @@
 
   self.window.rootViewController = navController;
   [self.window makeKeyAndVisible];
+
   return YES;
 }
 
@@ -47,9 +63,20 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+  [FBAppCall handleDidBecomeActiveWithSession:[PFFacebookUtils session]];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
+  [[PFFacebookUtils session] close];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+  return [FBAppCall handleOpenURL:url
+                sourceApplication:sourceApplication
+                      withSession:[PFFacebookUtils session]];
 }
 
 @end

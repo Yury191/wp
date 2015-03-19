@@ -6,8 +6,12 @@
 //  Copyright (c) 2015 Central Park Ed. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+
+@class WZYPracticeController;
 
 @interface WZYTestViewController : UIViewController
+
+- (id)initWithPracticeController:(WZYPracticeController *)practiceController;
 
 @end

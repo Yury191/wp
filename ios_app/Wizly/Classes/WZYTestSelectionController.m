@@ -12,6 +12,9 @@
 #import "WZYColors.h"
 #import "WZYDiagnosticInstructionVC.h"
 #import "WZYLabelUtil.h"
+#import "WZYQuestionStore.h"
+#import "WZYTestConfigVC.h"
+#import "WZYTestViewController.h"
 
 static const CGFloat kTestButtonHeight = 66.0;
 
@@ -94,11 +97,18 @@ static const CGFloat kTestButtonHeight = 66.0;
 }
 
 - (void)satTapped {
-
+  [self configTestForType:WZYTestSAT];
 }
 
 - (void)actTapped {
+  [self configTestForType:WZYTestACT];
+}
 
+- (void)configTestForType:(WZYTestType)type {
+  WZYTestConfigVC *configVC = [[WZYTestConfigVC alloc] init];
+  configVC.testType = type;
+
+  [self.navigationController pushViewController:configVC animated:YES];
 }
 
 @end

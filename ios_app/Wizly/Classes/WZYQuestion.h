@@ -9,21 +9,38 @@
 @import UIKit;
 
 typedef NS_OPTIONS(NSUInteger, WZYQuestionType) {
-  WZYQuestionTypeMath = 0 >> 1,
-  WZYQuestionTypeReading= 0 >> 2,
-  WZYQuestioNTypeWriting = 0 >> 3,
+  WZYQuestionTypeUnknown = 0,
+  WZYQuestionTypeMath = 1 << 1,
+  WZYQuestionTypeReading = 1 << 2,
+  WZYQuestionTypeWriting = 1 << 3,
+  WZYQuestionTypeEnglish = 1 << 4,
+  WZYQuestionTypeScience = 1 << 5,
+  WZYQuestionTypeAllSAT = WZYQuestionTypeMath | WZYQuestionTypeReading | WZYQuestionTypeWriting,
+  WZYQuestionTypeAllACT = WZYQuestionTypeMath | WZYQuestionTypeReading | WZYQuestionTypeWriting | WZYQuestionTypeScience,
 };
 
 @interface WZYQuestion : NSObject
 
-@property(nonatomic) NSUInteger questionNumber;
-@property(nonatomic) NSString *questionTitle;
+@property(nonatomic) NSString *questionId;
 @property(nonatomic) NSString *questionText;
 @property(nonatomic) NSString *questionReading;
 @property(nonatomic) UIImage *questionImage;
+@property(nonatomic) NSString *questionImageName;
 @property(nonatomic) WZYQuestionType questionType;
 
+// DNA properties
+@property(nonatomic) NSString *dnaPercentCorrect;
+@property(nonatomic) NSString *dnaUsersResponsed;
+@property(nonatomic) NSString *dnaTimeToAnswer;
+@property(nonatomic) NSString *dnaDifficulty;
+
+@property(nonatomic, assign) BOOL isSAT;
+@property(nonatomic, assign) BOOL choicesAreImages;
+
 /** Numerical value corresponding to the alphabetical letter (e.g. A = 1, B = 2) **/
-@property(nonatomic) NSUInteger questionAnswer;
+@property(nonatomic, assign) NSUInteger questionAnswer;
+
+/** Strings for each answer option **/
+@property(nonatomic) NSArray *questionChoices;
 
 @end

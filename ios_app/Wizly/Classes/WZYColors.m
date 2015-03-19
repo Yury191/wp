@@ -13,7 +13,7 @@
 #pragma mark - Values
 
 + (UIColor *)mainBackgroundColor {
-  return [WZYColors colorFromHexString:@"#04053C"];
+  return [WZYColors colorFromHexString:@"#363763"];
 }
 
 + (UIColor *)mainButtonColor {
@@ -25,7 +25,7 @@
 }
 
 + (UIColor *)cyanColor {
-  return [WZYColors colorFromHexString:@"#006564"];
+  return [WZYColors colorFromHexString:@"#7575A3"];
 }
 
 #pragma mark - Helpers

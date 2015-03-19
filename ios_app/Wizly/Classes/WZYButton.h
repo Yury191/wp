@@ -12,6 +12,10 @@
 
 @property(nonatomic) NSString *text;
 @property(nonatomic) UIColor *color;
+@property(nonatomic) UIImage *image;
+
+/** Image displayed on button. Will display above any text. **/
+@property(nonatomic, readonly) UIImageView *imageView;
 
 /** Text displayed by the button. Default text color is white. **/
 @property(nonatomic, readonly) UILabel *textLabel;

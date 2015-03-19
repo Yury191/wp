@@ -8,6 +8,12 @@
 
 #import "WZYUser.h"
 
+const NSString *kParseFirstNameKey = @"firstName";
+const NSString *kParseLastNameKey = @"lastName";
+const NSString *kParseHSNameKey = @"hsName";
+const NSString *kParseHSYearKey = @"hsYear";
+const NSString *kParsePhoneKey = @"phoneNumber";
+
 @implementation WZYUser
 
 @end
